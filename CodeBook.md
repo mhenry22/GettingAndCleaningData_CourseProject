@@ -1,6 +1,6 @@
 Here is the general codebook of my work. If needed, for more information, please don't hesitate to look inside the run_analysis.R code since I put detailed comments in each step of it.
 
-The run_analysis.R code generates the following data tables:
+## The run_analysis.R code generates the following data tables:
 
 ### dataset_folder
     - class = data.frame
@@ -38,8 +38,9 @@ The run_analysis.R code generates the following data tables:
     - class = grouped_df, tbl_df, tbl, data.frame
     - dimensions = 11880 x 5
 
-Below are listed, in order, all the variables that appear in my tidy dataset, their class (which here stands for the unit) and some basic statistics about them.
+## Below are listed, in order, all the variables that appear in my tidy dataset, their class (which here stands for the unit) and some basic statistics about them.
 This codebook was generated with the help of the codebook() function from the memisc package.
+For further information on initial and intermediate data tables, in order not to overload this codebook, please use the codebook() function in RStudio applied to the previously listed relevant tables.
 
 ### subject
 
