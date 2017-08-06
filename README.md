@@ -24,3 +24,17 @@ You should create one R script called run_analysis.R that does the following.
 - Appropriately labels the data set with descriptive variable names.
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+## Executing phase
+
+### Set working directory:
+* Use the setwd() function to set the working directory where the code will download the .zip, extracts its content and writes the final result file tidy_dataset.txt.
+
+### Install packages: 
+* dplyr
+* tidyr
+* memisc
+
+### Run 'run_analysis.R' and generate the followings:
+* 'Dataset.zip'
+* 'UCI HAR Dataset' folder
+* 'tidy_dataset.txt' resulting text file
